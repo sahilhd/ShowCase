@@ -1,3 +1,3 @@
-# ShowCase
-The purpose of this repo is to show some of the projects I have been working on!
-There are examples of my work in Python, HTML, C++ and Java (arduino)
+# Sahil Handa 
+Hello, my name is Sahil Handa and I enjoy coding.  I aspire to be a Software Engineer because I enjoy working with C++ and python to make my ideas come to life.
+This repo will show my work over the years in Autocad, Java, Python, C++ and more!
