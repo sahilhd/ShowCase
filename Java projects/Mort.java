@@ -11,10 +11,12 @@ public class FizzBuzz {
         // else just the number
 
         Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
+
+        while (true) {int number = scanner.nextInt();
 
         if( number % 5 == 0 & number % 3 ==0){
             System.out.println("FizzBuzz");
+
         }
         else if (number % 5 == 0){
             System.out.println("Fizz");
@@ -22,8 +24,10 @@ public class FizzBuzz {
         else if (number % 3 == 0){
             System.out.println("Buzz");
         }
-        else{
+        else {
             System.out.println(number);
+            break;
+        }
         }
 
 
@@ -32,4 +36,4 @@ public class FizzBuzz {
 
 
     }
-}
+    }
