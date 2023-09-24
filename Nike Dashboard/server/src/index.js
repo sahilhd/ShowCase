@@ -10,6 +10,6 @@ app.use(express.json()); // sending data from the front end
 app.use(cors());
 app.use("/auth", userRouter);
 
-mongoose.connect("mongodb+srv://sahilhandauni:MERNpassword2003@shoes.mfn7pp7.mongodb.net/shoes?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://sahilhandauni:---@shoes.mfn7pp7.mongodb.net/shoes?retryWrites=true&w=majority")
 app.listen(3001, () => console.log("START")); // start api on port 3001
 
